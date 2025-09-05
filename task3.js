@@ -11,9 +11,9 @@ export class Player {
     } 
 
   info(){
-    return `${this.name} has reached Level ${this.level}`
-    
+    return `${this.name} has reached Level ${this.level}` 
   }
+  
   }
 const player1 = new Player("Carlos",80,10);
 console.log(player1.info());
