@@ -1,7 +1,16 @@
 export class Player {
-    constructor() {
+  name;
+  level;
+    constructor(name,level,xp) {
+      this.name= name;
+      this.level= level;
       
-    }
-  
+
+      
+    } 
+
     
+
   }
+const player1 = new Player("Carlos",80);
+console.log(player1);
